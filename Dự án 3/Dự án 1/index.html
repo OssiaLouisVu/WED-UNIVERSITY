@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/54f0cb7e4a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Website-University</title>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <div class="container">
+                <div class="header-top row">
+                    <p>FPT<span>UNIVERSITY</span></p>
+                    <!-- Nút hamburger -->
+                    <div class="hamburger-menu" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <!-- Menu ngang (desktop) -->
+                    <ul class="desktop-menu">
+                        <li><a href="">Trang chủ</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Khóa Học</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Liên hệ</a></li>
+                    </ul>
+
+                    <!-- Menu dọc (mobile) -->
+                    <div class="mobile-nav" id="mobileNav">
+                        <span class="close-btn" onclick="toggleMenu()">×</span>
+                        <ul>
+                            <li><a href="">Trang chủ</a></li>
+                            <li><a href="">Giới thiệu</a></li>
+                            <li><a href="">Khóa Học</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Liên hệ</a></li>
+                        </ul>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="2.jpg"></div>
+
+            <div class="header-text">
+                <h1>Trường Đại Học Hàng Đầu Việt Nam Về Lập Trình Javascript</h1>
+                <p>Hãy đến với chúng tôi để trải nghiệm một nền giáo dục hàng đầu thế giới</p>
+                <button>Đăng ký</button>
+            </div>
+        </div>
+
+    </header>
+    <section class="course">
+        <h1>Những Khóa Học Cho Bạn</h1>
+        <div class="course-items">
+            <div class="course-item">
+                <h2>Html, Css</h2>
+                <p>HTML là một ngôn ngữ đánh dấu được thiết kế ra để tạo nên các trang web trên World Wide Web. Nó có thể được trợ giúp bởi các công nghệ như CSS và các ngôn ngữ kịch bản giống như JavaScript.
+                </p>
+            </div>
+            <div class="course-item">
+                <h2>JavaScript</h2>
+                <p>HTML là một ngôn ngữ đánh dấu được thiết kế ra để tạo nên các trang web trên World Wide Web. Nó có thể được trợ giúp bởi các công nghệ như CSS và các ngôn ngữ kịch bản giống như JavaScript.
+                </p>
+            </div>
+            <div class="course-item">
+                <h2>Python</h2>
+                <p>HTML là một ngôn ngữ đánh dấu được thiết kế ra để tạo nên các trang web trên World Wide Web. Nó có thể được trợ giúp bởi các công nghệ như CSS và các ngôn ngữ kịch bản giống như JavaScript.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="brand">
+        <h1>Hệ Thống Của Chúng Tôi</h1>
+
+        <div class="brand-items container row">
+            <div class="brand-item" id="hanoi">
+                <div class="image-wrapper">
+                    <img src="3.jpeg " alt="Hà Nội ">
+                    <h2 class="label ">Hà Nội</h2>
+                </div>
+            </div>
+
+            <div class="brand-item " id="hochiminh">
+                <div class="image-wrapper ">
+                    <img src="4.jpg " alt="Hồ Chí Minh ">
+                    <h2 class="label ">Hồ Chí Minh</h2>
+                </div>
+            </div>
+
+            <div class="brand-item " id="danang">
+                <div class="image-wrapper ">
+                    <img src="5.jpeg " alt="Đà Nẵng ">
+                    <h2 class="label ">Đà Nẵng</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand">
+        <h1>Hệ Thống Của Chúng Tôi</h1>
+        <div class="brand-items container row">
+            <div class="brand-item">
+                <div class="image-wrapper">
+                    <img src="6.jpg" alt="Phòng học">
+                    <div class="label">Phòng học</div>
+                </div>
+                <h2>Phòng học</h2>
+                <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
+            </div>
+
+            <div class="brand-item">
+                <div class="image-wrapper">
+                    <img src="7.jpg" alt="Căn tin">
+                    <div class="label">Căn tin</div>
+                </div>
+                <h2>Căn tin</h2>
+                <p>Chuyên phục vụ các món ăn tự chọn đảm bảo vệ sinh thực phẩm</p>
+            </div>
+
+            <div class="brand-item">
+                <div class="image-wrapper">
+                    <img src="8.jpeg" alt="Thư viện">
+                    <div class="label">Thư viện</div>
+                </div>
+                <h2>Thư viện</h2>
+                <p>Có tất cả các đầu sách hay trên toàn thế giới</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial">
+        <h1>Cảm Nhận Học Viên</h1>
+        <div class="testimonial-container">
+            <button class="prev">&#10094;</button>
+            <div class="testimonial-wrapper">
+                <div class="testimonial-track">
+                    <div class="testimonial-card">
+                        <img src="10.jpg" alt="Học viên 1">
+                        <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
+                        <h3>Ngô Sỹ Nguyên</h3>
+                        <div class="stars">★ ★ ★ ★ ☆</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="11.png" alt="Học viên 2">
+                        <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
+                        <h3>Ngô Sỹ Nguyên</h3>
+                        <div class="stars">★ ★ ★ ★ ★</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="12.jpg" alt="Học viên 3">
+                        <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
+                        <h3>Ngô Sỹ Nguyên</h3>
+                        <div class="stars">★ ★ ★ ★ ☆</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="12.jpg" alt="Học viên 4">
+                        <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
+                        <h3>Ngô Sỹ Nguyên</h3>
+                        <div class="stars">★ ★ ★ ★ ☆</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="10.jpg" alt="Học viên 5">
+                        <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
+                        <h3>Ngô Sỹ Nguyên</h3>
+                        <div class="stars">★ ★ ★ ★ ☆</div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="11.png" alt="Học viên 6">
+                        <p>Phòng học của chúng tôi được trang bị những thiết bị hiện đại</p>
+                        <h3>Ngô Sỹ Nguyên</h3>
+                        <div class="stars">★ ★ ★ ★ ☆</div>
+                    </div>
+                </div>
+            </div>
+            <button class="next">&#10095;</button>
+        </div>
+    </section>
+
+    <section class="contact-banner">
+        <div class="contact-content">
+            <h2>
+                Hãy Nhanh Liên Hệ Với Chúng Tôi Để Được Hưởng Ưu Đãi Tốt Nhất Về Chính Sách Giảm Học Phí
+            </h2>
+            <a href="#" class="btn-contact">Liên Hệ</a>
+        </div>
+    </section>
+
+
+    <script src="script.js "></script>
+</body>
+
+</html>
